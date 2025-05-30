@@ -3,7 +3,7 @@
 This is a full-stack web app that displays upcoming soccer matches using the [API-Football](https://www.api-football.com/) API.
 
 ## 🌐 Live Demo (Optional)
-If deployed, provide a link here.
+LINK COMING SOON...
 
 ## 🚀 How to Run
 
