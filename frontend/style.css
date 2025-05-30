@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f3f6f9;
+  color: #333;
+}
+
+header {
+  background: #1e3c72;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.match-card {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.match-card:hover {
+  transform: translateY(-5px);
+}
+
+.match-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teams {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.time {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1e3c72;
+  color: white;
+}
+V
